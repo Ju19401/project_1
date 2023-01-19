@@ -1,0 +1,13 @@
+<h1>Index sports</h1>
+
+<% @sports.each do |sport| %>
+  <% link_to sports_path(sport) do %>
+    <p>
+      <%= sport.name %>
+      <%= sport.location %>
+      <%= sport.difficulty %>
+      <%= sport.level %>
+      <%= sport.distance %>
+    </p>
+  <% end %>
+<% end  %>

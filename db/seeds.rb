@@ -22,7 +22,7 @@ sports2 = Sport.create!(
   distance: 10
 )
 
-sports1 = Sport.create!(
+sports3 = Sport.create!(
   name: "Cycling",
   location: "Annecy",
   difficulty: 4,
@@ -30,7 +30,7 @@ sports1 = Sport.create!(
   distance: 200
 )
 
-sports1 = Sport.create!(
+sports4 = Sport.create!(
   name: "Trail",
   location: "Annecy",
   difficulty: 3,
