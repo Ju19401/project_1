@@ -5,3 +5,35 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+sports1 = Sport.create!(
+  name: "Trail",
+  location: "Annecy",
+  difficulty: 3,
+  level: "intermediate",
+  distance: 20
+)
+
+sports2 = Sport.create!(
+  name: "Running",
+  location: " Lyon",
+  difficulty: 2,
+  level: "beginner",
+  distance: 10
+)
+
+sports1 = Sport.create!(
+  name: "Cycling",
+  location: "Annecy",
+  difficulty: 4,
+  level: "pro",
+  distance: 200
+)
+
+sports1 = Sport.create!(
+  name: "Trail",
+  location: "Annecy",
+  difficulty: 3,
+  level: "intermediate",
+  distance: 20
+)
