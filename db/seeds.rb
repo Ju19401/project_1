@@ -24,7 +24,7 @@ Sport.create!(
   difficulty: 2,
   level: "beginner",
   distance: 10,
-  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
+  image_url: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
 )
 Sport.create!(
   name: "Cycling",
@@ -32,7 +32,7 @@ Sport.create!(
   difficulty: 4,
   level: "pro",
   distance: 200,
-  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
+  image_url: "https://images.unsplash.com/photo-1541625602330-2277a4c46182?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y3ljbGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60"
 )
 
 Sport.create!(

@@ -3,15 +3,14 @@
 <% @sports.each do |sport| %>
   <%= link_to sport_path(sport) do %>
    <div class="card">
-    <p>
       <p><%= sport.name %></p>
       <p><%= sport.location %></p>
       <p><%= sport.difficulty %></p>
       <p><%= sport.level %></p>
       <p><%= sport.distance %></p>
-      <%# < <p><%= sport.image_url</p> %>
-      <%= image_tag sport.image_url %>
-    </p>
+      <div class="card-img">
+        <p><%= image_tag sport.image_url %></p>
+      </div>
     </div>
   <% end %>
 <% end  %>

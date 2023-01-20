@@ -6,16 +6,14 @@
 
 .card {
   background-color: #EFEFEF;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   text-decoration: none;
   color: black;
   border-radius: 2rem;
-  opacity:0.6;
   box-shadow: 2px 2px 2px #EFEFEF;
   border: #EFEFEF;
   font-family: 'Roboto', sans-serif;
+  padding: 1rem;
 }
 
 .card:hover {
@@ -23,4 +21,9 @@
   box-shadow: 2px 2px 2px #EFEFEF;
   border: #F9F9F9;
   opacity: 0.8;
+}
+
+img {
+  width: 80%;
+  border-radius: 1rem;
 }
