@@ -1,13 +1,17 @@
 <h1>Index sports</h1>
-
+<div class="container">
 <% @sports.each do |sport| %>
-  <% link_to sports_path(sport) do %>
+  <%= link_to sport_path(sport) do %>
+   <div class="card">
     <p>
-      <%= sport.name %>
-      <%= sport.location %>
-      <%= sport.difficulty %>
-      <%= sport.level %>
-      <%= sport.distance %>
+      <p><%= sport.name %></p>
+      <p><%= sport.location %></p>
+      <p><%= sport.difficulty %></p>
+      <p><%= sport.level %></p>
+      <p><%= sport.distance %></p>
+      <p><%= sport.image_url %></p>
     </p>
+    </div>
   <% end %>
 <% end  %>
+</div>
