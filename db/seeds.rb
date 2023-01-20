@@ -14,7 +14,8 @@ Sport.create!(
   difficulty: 3,
   level: "intermediate",
   distance: 20,
-  image_url: "app/assets/images/david-marcu-8TJbrQGKFyU-unsplash.jpg"
+  # image_url: "app/assets/images/david-marcu-8TJbrQGKFyU-unsplash.jpg"
+  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
 )
 
 Sport.create!(
@@ -23,16 +24,15 @@ Sport.create!(
   difficulty: 2,
   level: "beginner",
   distance: 10,
-  image_url: "app/assets/images/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg"
+  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
 )
-
 Sport.create!(
   name: "Cycling",
   location: "Annecy",
   difficulty: 4,
   level: "pro",
   distance: 200,
-  image_url: "app/assets/images/coen-van-de-broek-OFyh9TpMyM8-unsplash (1).jpg"
+  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
 )
 
 Sport.create!(
@@ -41,7 +41,7 @@ Sport.create!(
   difficulty: 3,
   level: "intermediate",
   distance: 20,
-  image_url: "app/assets/images/david-marcu-8TJbrQGKFyU-unsplash.jpg"
+  image_url: "https://images.unsplash.com/photo-1456613820599-bfe244172af5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1774&q=80"
 )
 
 puts "Finished!"
