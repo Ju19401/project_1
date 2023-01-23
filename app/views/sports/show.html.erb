@@ -1,8 +1,10 @@
 <div class="show">
-  <p><%= @sports.name %></p>
-  <p><%= @sports.location %></p>
-  <p><%= @sports.difficulty %></p>
-  <p><%= @sports.level %></p>
-  <p><%= @sports.distance %></p>
-  <p><%= @sports.image_url %></p>
+  <p><%= @sport.name %></p>
+  <p><%= @sport.location %></p>
+  <p><%= @sport.difficulty %></p>
+  <p><%= @sport.level %></p>
+  <p><%= @sport.distance %></p>
+  <div class="picture">
+  <p><%= image_tag @sport.image_url %></p>
+  </div>
 </div>

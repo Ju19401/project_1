@@ -1,11 +1,14 @@
 class SportsController < ApplicationController
 
   def index
-    @sports = Sport.all
+    if params[:query].present?
+      @sports = Sport.where(name: params[:query].capitalize)
+    else
+      @sports = Sport.all
+    end
   end
 
   def show
-    @sports = Sport.find(params[:id])
+    @sport = Sport.find(params[:id])
   end
-
 end

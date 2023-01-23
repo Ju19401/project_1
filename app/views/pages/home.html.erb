@@ -1,13 +1,6 @@
-<div class="homepage">
-  <div class="homeback">
-    <h1>Move</h1>
-    <h3>What do you want to do today ?</h3>
-   <div data-controller="search">
-      <%= form_with url: sports_path, method: :get do |form| %>
-          <%= form.text_field :query, placeholder: "Sport"%>
-          <%= form.submit "Search", class: "btn" %>
-        <% end %>
-    <ul data-target="sports"> </ul>
-    </div>
-  </div>
-</div>
+<h1>Move</h1>
+  <h3>What do you want to do today ?</h3>
+    <%= form_with url: sports_path, method: :get, class: "d-flex" do %>
+        <%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Sports" %>
+        <%= submit_tag "Search", class: "btn"%>
+    <% end %>
