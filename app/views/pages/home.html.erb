@@ -4,3 +4,6 @@
         <%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Sports" %>
         <%= submit_tag "Search", class: "btn"%>
     <% end %>
+    <div class="link">
+<%= link_to ">> All the sports", sports_path %>
+  </div>

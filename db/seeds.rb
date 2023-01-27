@@ -8,6 +8,8 @@
 Sport.destroy_all
 puts "Creating sports..."
 
+10.times do
+
 Sport.create!(
   name: "Trail",
   location: "Annecy",
@@ -45,3 +47,4 @@ Sport.create!(
 )
 
 puts "Finished!"
+end

@@ -1,30 +1,22 @@
 // Specific CSS for your home-page
-html {
+body {
   background-image: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8TW91bnRhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 100%;
-
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
-    color: #F9F9F9;
-    text-align: center;
-    padding-top: 2rem;
-  }
-
+  width: 100%;
   h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
-    color: #F9F9F9;
+    color: #EFEFEF;
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 }
 
 .form-control {
-  background-color: #F9F9F9;
+  background-color: #EFEFEF;
   border: none;
   border-radius: 1rem;
   box-shadow: none;
@@ -36,7 +28,7 @@ html {
 }
 
 .btn {
-  background-color: #F9F9F9;
+  background-color: #EFEFEF;
   border: none;
   border-radius: 1rem;
   box-shadow: none;
@@ -52,5 +44,27 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 0;
 }
+
+a {
+  color: #EFEFEF;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.link {
+  margin-left: 20rem;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #EFEFEF;
+  text-align: center;
+  padding-top: 2rem;
+}
+
