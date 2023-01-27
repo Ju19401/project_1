@@ -1,9 +1,11 @@
-<h1>Move</h1>
+ <div>
+    <h1>Welcome <span id="typed"></span></h1>
+  </div>
   <h3>What do you want to do today ?</h3>
     <%= form_with url: sports_path, method: :get, class: "d-flex" do %>
         <%= text_field_tag :query, params[:query], class: "form-control", placeholder: "Sports" %>
         <%= submit_tag "Search", class: "btn"%>
     <% end %>
-    <div class="link">
+  <div class="link">
 <%= link_to ">> All the sports", sports_path %>
   </div>
