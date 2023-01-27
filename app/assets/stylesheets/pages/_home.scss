@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
+
   h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
@@ -20,7 +22,6 @@ body {
   border: none;
   border-radius: 1rem;
   box-shadow: none;
-  color: #212529;
   font-size: 1.25rem;
   font-weight: 300;
   height: 1rem;
@@ -32,7 +33,7 @@ body {
   border: none;
   border-radius: 1rem;
   box-shadow: none;
-  color: #212529;
+  color: #757575;
   font-size: 0.75rem;
   font-weight: 300;
   height: 2rem;
@@ -47,18 +48,17 @@ body {
   margin: 0;
 }
 
-a {
-  color: #EFEFEF;
-  font-size: 1rem;
-  font-weight: 300;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
+
 
 .link {
-  margin-left: 20rem;
+ text-align: center;
 }
+
+a {
+  text-decoration: none;
+  color: #EFEFEF;
+}
+
 
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -68,3 +68,46 @@ h1 {
   padding-top: 2rem;
 }
 
+
+
+
+
+
+
+
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
