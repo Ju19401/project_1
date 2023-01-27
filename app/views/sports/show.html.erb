@@ -2,11 +2,13 @@
 <%= link_to "<< Back", sports_path %>
 </div>
 <div class="show">
+  <div class="titlecards">
   <p><%= @sport.name %></p>
   <p><%= @sport.location %></p>
   <p><%= @sport.difficulty %></p>
   <p><%= @sport.level %></p>
   <p><%= @sport.distance %></p>
+  </div>
   <div class="picture">
     <p><%= image_tag @sport.image_url %></p>
   </div>
